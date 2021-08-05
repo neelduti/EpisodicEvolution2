@@ -1,0 +1,55 @@
+Id	Ortholog family id
+HS_gene_id	Human gene id
+Gene	Gene name
+Description	Human gene description
+HS	Human transcript id / Ortholog family id
+GG	Gorilla transcript id
+NL	Gibbon transcript id
+PT	Chimpanzee transcript id
+HS_aa	Length of Human protein
+PT_aa	Length of Chimpanzee protein
+GG_aa	Length of Gorilla protein
+NL_aa	Length of Gibbon protein
+overlap	Length of final alignment
+AbsId	Identical sites within the alignment
+Subs	Total substituted sites within the alignment
+HS_Subs	Sites substituted only in the human protein
+PT_Subs	Sites substituted only in the chimpanzee protein
+GG_Subs	Sites substituted only in the gorilla protein
+NL_Subs	Sites substituted only in the gibbon protein
+#1#_Subs	Sites substituted only at the #1# branch
+Convergent_Subs	Sites with two phylogenetically inconsistent identities
+OnlyInGpId	Sites where only human and chimp are identical
+OnlyOutGpId	Sites where only gorilla and gibbon are identical
+OneInOutId	Sites where one ingroup and one outgroup species are identical
+NoId	Sites without any identity
+%AbsId	(AbsId/overlap)*100
+%Subs	(Subs/overlap)*100
+%HS_Subs	(HS_Subs/overlap)*100
+%PT_Subs	(PT_Subs/overlap)*100
+%GG_Subs	(GG_Subs/overlap)*100
+%NL_Subs	(NL_Subs/overlap)*100
+%#1#_Subs	(Subs/overlap)*100
+%Convergent_Subs	(#1#_Subs/overlap)*100
+%OnlyInGpId	(OnlyInGpId/overlap)*100
+%OnlyOutGpId	(OnlyOutGpId/overlap)*100
+%OneInOutId	(OneInOutId/overlap)*100
+%NoId	(NoId/overlap)*100
+sd	standard deviation of ortholog lengths
+avg	average ortholog length
+Min	Shortest ortholog
+Max	Longest ortholog
+MaxDif	Length differnce between shortest and longest orthlogs
+RelMaxDif	(MaxDif/Min)*100
+RelOverlap	(overlap/Min)*100 = Alignment saturation
+%MinId	(AbsId/Min)*100
+MultiSp_Subs Sites substituted in more than one species	
+%MultiSp_Subs	(MultiSp_Subs/overlap)*100
+HS_Pc	Poisson corrected human branch length
+PT_Pc	Poisson corrected chimpanzee branch length
+GG_Pc	Poisson corrected gorilla branch length
+NL_Pc	Poisson corrected gibbon branch length
+#1#_Pc	Poisson corrected #1# branch length
+lower	Lineage with lower than expected number of substitutions
+higher	Lineage with higher than expected number of substitutions
+Comment	Marks the top candidates on each branch and flags the filtered candidates
